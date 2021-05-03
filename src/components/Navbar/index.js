@@ -26,13 +26,13 @@ const Navbar = () => {
               <NavLinks to="about">About Me</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="skils">Skills</NavLinks>
+              <NavLinks to="skills">Skills</NavLinks>
             </NavItem>
             <NavItem>
               <NavLinks to="projects">Projects</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="resume">Contact Me</NavLinks>
+              <NavLinks to="contact">Contact Me</NavLinks>
             </NavItem>
           </NavMenu>
           <NavBtn>
@@ -42,6 +42,6 @@ const Navbar = () => {
       </Nav>
     </>
   );
-}
+};
 
 export default Navbar;
