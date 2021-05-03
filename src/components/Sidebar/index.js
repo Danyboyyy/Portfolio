@@ -9,29 +9,29 @@ import { SidebarContainer,
   SidebarBtn
 } from './SidebarElements';
 
-const Sidebar = () => {
+const Sidebar = ({ isOpen, toggle }) => {
   return (
-    <SidebarContainer>
-      <Icon>
+    <SidebarContainer isOpen={isOpen} onClick={toggle}>
+      <Icon onClick={toggle}>
         <CloseIcon />
       </Icon>
       <SidebarWrapper>
         <SidebarMenu>
-          <SidebarLink to="about">
+          <SidebarLink to="about" onClick={toggle}>
             About Me
           </SidebarLink>
-          <SidebarLink to="skills">
+          <SidebarLink to="skills" onClick={toggle}>
             Skills
           </SidebarLink>
-          <SidebarLink to="projects">
+          <SidebarLink to="projects" onClick={toggle}>
             Projects
           </SidebarLink>
-          <SidebarLink to="contact">
+          <SidebarLink to="contact" onClick={toggle}>
             Contact Me
           </SidebarLink>
         </SidebarMenu>
         <SidebarBtnWrap>
-          <SidebarBtn to="/download">Resume</SidebarBtn>
+          <SidebarBtn to="/download" onClick={toggle}>Resume</SidebarBtn>
         </SidebarBtnWrap>
       </SidebarWrapper>
     </SidebarContainer>

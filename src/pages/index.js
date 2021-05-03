@@ -1,16 +1,14 @@
 import * as React from "react";
 import { BrowserRouter } from 'react-router-dom';
-import Navbar from '../components/Navbar';
-import Sidebar from "../components/Sidebar";
 import '../styles/app.css';
+import Home from "./Home";
 
 // markup
 const IndexPage = () => {
   return (
     <div className="App">
       <BrowserRouter>
-        <Sidebar />
-        <Navbar />
+        <Home />
       </BrowserRouter>
     </div>
   )
