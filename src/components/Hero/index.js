@@ -6,18 +6,10 @@ import { HeroContainer,
 import './animation.css';
 
 const Hero = () => {
-  const logo = document.querySelectorAll('#logo path');
-
-  console.log('aaaa');
-
-  for (let i = 0; i < logo.length; i++) {
-    console.log(`Letter ${i} is ${logo[i].getTotalLength()}`);
-  }
-
   return (
     <HeroContainer>
       <HeroContent>
-        <svg id="logo" width="937" height="111" viewBox="0 0 937 111" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg id="logo" width="100%" height="100%" viewBox="0 0 937 111" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M36.336 5.632C47.28 5.632 56.736 7.696 64.704 11.824C72.768 15.856 78.912 21.664 83.136 29.248C87.456 36.832 89.616 45.76 89.616 56.032C89.616 66.304 87.456 75.232 83.136 82.816C78.912 90.304 72.768 96.064 64.704 100.096C56.736 104.032 47.28 106 36.336 106H5.08801V5.632H36.336ZM36.336 95.2C49.296 95.2 59.184 91.792 66 84.976C72.816 78.064 76.224 68.416 76.224 56.032C76.224 43.552 72.768 33.808 65.856 26.8C59.04 19.792 49.2 16.288 36.336 16.288H18.192V95.2H36.336Z" stroke="white" strokeWidth="5" />
           <path d="M166.229 83.68H122.453L114.389 106H100.565L136.853 6.208H151.973L188.117 106H174.293L166.229 83.68ZM162.485 73.024L144.341 22.336L126.197 73.024H162.485Z" stroke="white" strokeWidth="5" />
           <path d="M282.844 106H269.74L217.036 26.08V106H203.932V5.48801H217.036L269.74 85.264V5.48801H282.844V106Z" stroke="white" strokeWidth="5" />
