@@ -1,5 +1,6 @@
 import React from 'react';
-import { SkillsContainer,
+import {
+  SkillsContainer,
   SkillsWrapper,
   TextWrapper,
   Heading

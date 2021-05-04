@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import Hero from '../components/Hero';
 import Navbar from '../components/Navbar'
+import Projects from '../components/Projects';
 import Sidebar from '../components/Sidebar'
 import Skills from '../components/Skills';
 
@@ -17,6 +18,7 @@ const Home = () => {
       <Navbar toggle={toggle} />
       <Hero />
       <Skills />
+      <Projects />
     </>
   );
 };

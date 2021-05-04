@@ -1,5 +1,6 @@
 import React from 'react';
-import { HeroContainer,
+import {
+  HeroContainer,
   HeroContent,
   HeroP
 } from './HeroElements';

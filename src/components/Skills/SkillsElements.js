@@ -12,7 +12,7 @@ export const SkillsContainer = styled.div`
 export const SkillsWrapper = styled.div`
   display: grid;
   z-index: 1;
-  height: 860px;
+  height: 100vh;
   width: 100%;
   max-width: 1100px;
   margin-right: auto;
@@ -27,7 +27,7 @@ export const TextWrapper = styled.div`
 `
 
 export const Heading = styled.h1`
-  margin-bottom: 24px;
+  margin-bottom: 100px;
   font-size: 48px;
   line-height: 1.1;
   font-weight: 600;
