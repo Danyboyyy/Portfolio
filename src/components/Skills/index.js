@@ -2,7 +2,6 @@ import React from 'react';
 import {
   SkillsContainer,
   SkillsWrapper,
-  TextWrapper,
   Heading
 } from './SkillsElements';
 import { TagCloud } from 'react-tagcloud';
@@ -31,27 +30,21 @@ const Skills = () => {
   const options = {
     luminosity: 'light',
     hue: 'green',
-  }
+  };
   
   return (
-    <>
-      <SkillsContainer>
-        <SkillsWrapper>
-          <TextWrapper>
-            <Heading>
-              Skills
-            </Heading>
-            <TagCloud
-            minSize={25}
-            maxSize={55}
-            colorOptions={options}
-            tags={data}
-          />
-          </TextWrapper>
-        </SkillsWrapper>
-      </SkillsContainer>
-    </>
-  )
-}
+    <SkillsContainer>
+      <Heading>Skills</Heading>
+      <SkillsWrapper>
+        <TagCloud
+          minSize={25}
+          maxSize={55}
+          colorOptions={options}
+          tags={data}
+        />
+      </SkillsWrapper>
+    </SkillsContainer>
+  );
+};
 
 export default Skills;

@@ -6,7 +6,7 @@ export const ProjectsContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #010606;
+  background: #0c0c0c;
   
   @media screen and (max-width: 768px) {
     height: 1100px;
@@ -53,12 +53,6 @@ export const ProjectsCard = styled.div`
     transition: all 0.2s ease-in-out;
     cursor: pointer;
   }
-`
-
-export const ProjectsIcon = styled.img`
-  height: 160px;
-  width: 160px;
-  margin-bottom: 10px;
 `
 
 export const ProjectsH1 = styled.h1`

@@ -62,7 +62,7 @@ const Projects = () => {
         </ProjectsCard>
       </ProjectsWrapper>
     </ProjectsContainer>
-  )
+  );
 };
 
 export default Projects;
