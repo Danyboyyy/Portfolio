@@ -1,5 +1,5 @@
 import * as React from "react";
-import { BrowserRouter } from 'react-router-dom';
+import { Router } from '@reach/router';
 import '../styles/app.css';
 import Home from "./Home";
 
@@ -7,9 +7,9 @@ import Home from "./Home";
 const IndexPage = () => {
   return (
     <div className="App">
-      <BrowserRouter>
-        <Home />
-      </BrowserRouter>
+      <Router>
+        <Home path="/"/>
+      </Router>
     </div>
   )
 }
