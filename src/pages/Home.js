@@ -8,7 +8,7 @@ const Home = () => {
 
   const toggle = () => {
     setIsOpen(!isOpen);
-  }
+  };
 
   return (
     <>
@@ -16,7 +16,7 @@ const Home = () => {
       <Navbar toggle={toggle} />
       <Hero />
     </>
-  )
+  );
 };
 
 export default Home;
