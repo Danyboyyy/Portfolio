@@ -31,7 +31,7 @@ const Sidebar = ({ isOpen, toggle }) => {
           </SidebarLink>
         </SidebarMenu>
         <SidebarBtnWrap>
-          <SidebarBtn to="/download" onClick={toggle}>Resume</SidebarBtn>
+          <SidebarBtn to="download" onClick={toggle}>Resume</SidebarBtn>
         </SidebarBtnWrap>
       </SidebarWrapper>
     </SidebarContainer>
