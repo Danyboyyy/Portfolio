@@ -35,6 +35,9 @@ const Projects = () => {
             <ProjectLink href="https://github.com/Danyboyyy/Sudoku" target="_blank" >
               <FaGithub />
             </ProjectLink>
+            <ProjectLink href="https://autosudoku.herokuapp.com/" target="_blank">
+              <FaLink />
+            </ProjectLink>
           </LinkArea>
         </ProjectsCard>
         <ProjectsCard>
