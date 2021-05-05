@@ -55,7 +55,7 @@ export const ProjectsCard = styled.div`
   }
 `
 
-export const ProjectsH1 = styled.h1`
+export const Heading = styled.h1`
   font-size: 48px;
   color: #fff;
   margin-bottom: 64px;

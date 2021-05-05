@@ -33,7 +33,7 @@ const Skills = () => {
   };
   
   return (
-    <SkillsContainer>
+    <SkillsContainer id="skills">
       <Heading>Skills</Heading>
       <SkillsWrapper>
         <TagCloud
