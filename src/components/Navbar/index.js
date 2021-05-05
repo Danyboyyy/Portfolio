@@ -9,9 +9,11 @@ import {
   NavItem,
   NavLinks,
   NavBtn,
-  NavBtnLink
+  NavBtnLink,
+  LinkPdf
 } from './NavbarElements';
 import { animateScroll } from 'react-scroll';
+import pdf from '../../data/Resume.pdf';
 
 const Navbar = ({ toggle }) => {
 
@@ -42,7 +44,7 @@ const Navbar = ({ toggle }) => {
             </NavItem>
           </NavMenu>
           <NavBtn>
-            <NavBtnLink to="download">Resume</NavBtnLink>
+            <LinkPdf href={pdf} target="_blank">Resume</LinkPdf>
           </NavBtn>
         </NavbarContainer>
       </Nav>
