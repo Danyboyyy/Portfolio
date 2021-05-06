@@ -9,7 +9,6 @@ import {
   NavItem,
   NavLinks,
   NavBtn,
-  NavBtnLink,
   LinkPdf
 } from './NavbarElements';
 import { animateScroll } from 'react-scroll';
