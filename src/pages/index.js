@@ -8,7 +8,7 @@ const IndexPage = () => {
   return (
     <div className="App">
       <Router>
-        <Home path="/Home"/>
+        <Home path="/"/>
       </Router>
     </div>
   )
