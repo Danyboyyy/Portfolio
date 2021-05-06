@@ -9,10 +9,17 @@ import {
   NavItem,
   NavLinks,
   NavBtn,
-  NavBtnLink
+  LinkPdf
 } from './NavbarElements';
+import { animateScroll } from 'react-scroll';
+import pdf from '../../data/Resume.pdf';
 
 const Navbar = ({ toggle }) => {
+
+  const toggleHome = () => {
+    animateScroll.scrollToTop(); 
+  }
+
   return (
     <>
       <Nav>
@@ -23,20 +30,20 @@ const Navbar = ({ toggle }) => {
           </MobileIcon>
           <NavMenu>
             <NavItem>
-              <NavLinks to="about">About Me</NavLinks>
+              <NavLinks to="about" smooth={true} duration={500} spy={true} exact='true' >About Me</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="skills">Skills</NavLinks>
+              <NavLinks to="skills" smooth={true} duration={500} spy={true} exact='true' >Skills</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="projects">Projects</NavLinks>
+              <NavLinks to="projects" smooth={true} duration={500} spy={true} exact='true' >Projects</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="contact">Contact Me</NavLinks>
+              <NavLinks to="contact" smooth={true} duration={500} spy={true} exact='true' >Contact Me</NavLinks>
             </NavItem>
           </NavMenu>
           <NavBtn>
-            <NavBtnLink to="download">Resume</NavBtnLink>
+            <LinkPdf href={pdf} target="_blank">Resume</LinkPdf>
           </NavBtn>
         </NavbarContainer>
       </Nav>
