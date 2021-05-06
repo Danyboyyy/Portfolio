@@ -1,0 +1,2 @@
+(self.webpackChunkportfolio=self.webpackChunkportfolio||[]).push([[678],{7704:function(e,t,l){"use strict";l.r(t);var a=l(7294),n=l(9499),r=l(1205);t.default=function(){return a.createElement("div",{className:"App"},a.createElement(n.Router,null,a.createElement(r.default,{path:"/"})))}}}]);
+//# sourceMappingURL=component---src-pages-index-js-f3eda28cc95d29670a30.js.map
