@@ -7,8 +7,8 @@ import Home from "./Home";
 const IndexPage = () => {
   return (
     <div className="App">
-      <Router basepath="/Home">
-        <Home path="/"/>
+      <Router>
+        <Home path="/Home"/>
       </Router>
     </div>
   )
